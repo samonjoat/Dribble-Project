@@ -1,0 +1,165 @@
+* {display: flexbox;}
+
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    overflow-x: hidden;
+    background-color: #DEEFFB;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.bkgd-div {
+    background-color: #DEEFFB;
+}
+
+div.col-md-6 div.main-image {
+    position: relative;
+    max-width: 100%;
+}
+
+.main-image img {
+    width: 100%;
+}
+
+.title h1 {
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-left: 10%;
+    font-size: 50px;
+    margin-top: 130px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.line {
+    border-left: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.sub-title {
+    font-size: 12px;
+    margin-top: 250px;
+    margin-left: 10%;
+}
+
+.search-bar {
+    z-index: 1;
+    width: 700px;
+    padding-top: 370px;
+    position: absolute;
+    padding-left: 10%;
+}
+
+.white-bkgd {
+    background-color: #fff;
+    height: 50px;
+    align-content: center;
+    box-shadow: -5px 2px 26px -5px rgba(49,49,117,0.51);
+
+}
+
+.purple-bkgd {
+    background-color: #442edf;
+    height: 50px;
+    align-content: center;
+    color: #fff;
+    box-shadow: -5px 2px 26px -5px rgba(49,49,117,0.51);
+
+}
+
+h6 {
+    font-size: 10px;
+}
+
+.align {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.search-button {
+    margin-top: 8%;
+}
+
+.col-md-6 {
+    padding: 0px;
+}
+
+.partner-logo {
+    width: 100%;
+}
+footer {
+    background-color: #fff;
+}
+.footer-margin {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding: 0px 40px;
+}
+
+
+@media only screen and (max-width: 1080px) {
+    .title h1 {
+        font-size: 45px;
+        margin-top: 100px;
+    }
+
+    .sub-title {
+        margin-top: 190px;
+    }
+
+    .search-bar {
+        padding-top: 320px;
+    }
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .title h1 {
+        margin-top: 50px;
+    }
+
+    .sub-title {
+        margin-top: 150px;
+    }
+
+    .search-bar {
+        padding-top: 240px;
+        width: 600px;
+    }
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .search-bar {
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .search-bar {
+        width: 80%;
+    }
+    .sub-title {
+        margin-top: 200px;
+    }
+
+    .footer-margin {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .partner-logo {
+        width: 20%;
+        margin: 0 auto;
+        display: block;
+        padding: 20px 0px;
+    }
+}
